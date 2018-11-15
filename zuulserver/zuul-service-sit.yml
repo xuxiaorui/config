@@ -1,7 +1,7 @@
 zuul:
   routes:
     api-a:
-      path: /api-member/**
+      path: /member/**
       service-id: memeberservice
     api-b:
       path: /api-order/**
