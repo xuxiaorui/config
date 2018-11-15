@@ -3,6 +3,7 @@ zuul:
     api-a:
       path: /memeber/**
       service-id: memeberservice
+      stripPrefix: false
     api-b:
       path: /api-order/**
       service-id: service-order
